@@ -1,0 +1,19 @@
+.bodyContent{
+    margin: 0px 60px;
+}
+
+
+.bookHeading{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.booksDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 78px;
+}
+.booksDiv img{
+    width: 12%;
+}

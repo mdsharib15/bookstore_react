@@ -1,0 +1,60 @@
+.header {
+  background-color: #292828;
+  width: 100%;
+  height: 85px;
+}
+
+.innerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 23px;
+  height: 100%;
+}
+
+.headerLogo {
+  display: flex;
+  width: 18%;
+  height: 34%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 10px;
+}
+.headerLogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.searchBar {
+  width: 35%;
+  display: flex;
+  gap: 10px;
+  height: 37px;
+}
+
+.searchBar input {
+  background-color: #373737;
+  border: none;
+  width: 80%;
+  padding: 15px;
+  color: white;
+}
+.searchBar button {
+  width: 15%;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.rightIcons {
+  display: flex;
+  width: 18%;
+  height: 27px;
+  gap: 46px;
+}
+.rightIcons img {
+  cursor: pointer;
+}
